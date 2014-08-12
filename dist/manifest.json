@@ -1,0 +1,8 @@
+{
+  "manifest_version": 2,
+  "name": "GifTab",
+  "version": "1.0.2",
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  }
+}
