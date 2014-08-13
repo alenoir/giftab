@@ -12,7 +12,6 @@ angular.module('giftabApp')
     var token = 'b0cdb95cca00131';
     $scope.imgTitle = '';
     $scope.imgSrc = '/images/ignore/loader.gif';
-    $scope.imgSrcLoad = '/images/ignore/loader.gif';
 
     $http({method: 'GET', url: 'https://api.imgur.com/3/gallery/r/reactiongifs', headers: {'Authorization': 'Client-ID ' + token}}).
       success(function(result) {
