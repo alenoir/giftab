@@ -1,0 +1,14 @@
+<form class="form_subreddit" ng-submit="update(user)">
+<h1>List of subreddit :</h1>
+<select class="form-control" ng-model="user.subreddit">
+  <option value="reactiongifs">Reactiongifs</option>
+  <option value="funny">Funny</option>
+  <option value="lolcats">Lolcats</option>
+  <option value="nsfw">NSFW</option>
+</select>
+<br />
+<h1>Manual subreddit :</h1>
+<input type="text" class="form-control input-lg" ng-model="user.subreddit" placeholder="reactiongifs" />
+<br />
+<button type="submit" class="btn btn-success btn-block" ng-click="update(user)">Choose</button>
+</form>

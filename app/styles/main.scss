@@ -58,7 +58,9 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
-
+  .content_image {
+    max-width: 100%;
+  }
   .btn {
     font-size: 21px;
     padding: 14px 24px;
@@ -72,6 +74,10 @@ body {
   p + h4 {
     margin-top: 28px;
   }
+}
+
+.form_subreddit {
+  width:200px;
 }
 
 /* Responsive: Portrait tablets and up */
@@ -96,3 +102,4 @@ body {
     border-bottom: 0;
   }
 }
+

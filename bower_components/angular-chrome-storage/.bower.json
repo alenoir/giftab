@@ -1,0 +1,14 @@
+{
+  "name": "angular-chrome-storage",
+  "homepage": "https://github.com/infomofo/angular-chrome-storage",
+  "_release": "7dfe5b1d54",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "7dfe5b1d542da3bfb3644e651eb87145e0b2af40"
+  },
+  "_source": "git://github.com/infomofo/angular-chrome-storage.git",
+  "_target": "*",
+  "_originalSource": "infomofo/angular-chrome-storage",
+  "_direct": true
+}
